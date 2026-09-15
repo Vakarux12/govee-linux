@@ -1,0 +1,16 @@
+# build output
+/target/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+
+# editor / OS
+*.swp
+.DS_Store
+
+# local captures (never commit tokens or traffic)
+*.mitm
+*.nettrace
+keytap.log

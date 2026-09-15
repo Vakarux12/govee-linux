@@ -1,0 +1,18 @@
+[package]
+name = "govee"
+version = "0.1.0"
+edition = "2021"
+description = "Unofficial Linux CLI for Govee lights: LAN control, cloud scenes, and screen-mirroring DreamView"
+license = "GPL-3.0-only"
+repository = "https://github.com/<you>/govee-linux"
+keywords = ["govee", "smart-home", "lan", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+strip = true
+lto = true
