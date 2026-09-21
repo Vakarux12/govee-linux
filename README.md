@@ -95,7 +95,7 @@ Flags: `--sat` (saturation boost, default 1.6), `--fps` (default 15), `--reverse
 
 The first `dreamview` run spawns `govee-screen.py` (portal ScreenCast -> downscaled BGRx frames in `/dev/shm/govee-screen`) unless a fresh frame shows one is already running.
 
-I would REALLY recommend using the GUI version for razer.
+I would REALLY recommend using the GUI version.
 
 ## GUI
 
