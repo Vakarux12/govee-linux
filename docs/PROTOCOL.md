@@ -1,12 +1,8 @@
-# Protocol research notes (sanitized)
+# Protocol research notes
 
 > These notes describe how the unofficial `govee` CLI talks to Govee devices
 > and cloud endpoints. They were reconstructed from traffic captures and
 > runtime tracing of the vendor's Govee Desktop app for interoperability.
-> Personal identifiers (MACs, device ids, LAN addresses, account endpoints)
-> have been replaced with placeholders. Vendor-owned constants (app version
-> strings, a static AES key and an RSA public key embedded in the vendor app)
-> are noted where the CLI must send byte-identical values to interoperate.
 > This project is not affiliated with or endorsed by Govee.
 
 
